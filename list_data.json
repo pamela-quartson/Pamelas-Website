@@ -1,22 +1,74 @@
 {
-	"movies": [
+	"cars": [
 		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
+		  "Name": "Tesla Model S",
+		  "Year": 2012,
+		  "Brand": "Tesla",
+		  "Model": "Model S",
+		  "Description": "A revolutionary electric sedan with impressive range and performance, setting the standard for electric vehicles."
 		},
 		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
+		  "Name": "Toyota Prius",
+		  "Year": 2004,
+		  "Brand": "Toyota",
+		  "Model": "Prius",
+		  "Description": "The iconic hybrid vehicle known for its fuel efficiency and eco-friendly design, paving the way for green technology in cars."
 		},
 		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
+		  "Name": "Ford F-150",
+		  "Year": 2021,
+		  "Brand": "Ford",
+		  "Model": "F-150",
+		  "Description": "The best-selling truck in the U.S., now available with a hybrid powertrain, known for durability, performance, and capability."
+		},
+		{
+		  "Name": "Honda Civic",
+		  "Year": 2006,
+		  "Brand": "Honda",
+		  "Model": "Civic",
+		  "Description": "A reliable and affordable compact car with great fuel efficiency and a reputation for longevity."
+		},
+		{
+		  "Name": "BMW 3 Series",
+		  "Year": 2018,
+		  "Brand": "BMW",
+		  "Model": "3 Series",
+		  "Description": "A luxury sports sedan known for its driving dynamics, comfort, and advanced technology features."
+		},
+		{
+		  "Name": "Chevrolet Corvette",
+		  "Year": 2020,
+		  "Brand": "Chevrolet",
+		  "Model": "Corvette",
+		  "Description": "An iconic American sports car with a mid-engine design, delivering outstanding performance and handling."
+		},
+		{
+		  "Name": "Porsche 911",
+		  "Year": 2019,
+		  "Brand": "Porsche",
+		  "Model": "911",
+		  "Description": "A legendary sports car known for its precision engineering, distinctive design, and track performance."
+		},
+		{
+		  "Name": "Mercedes-Benz S-Class",
+		  "Year": 2021,
+		  "Brand": "Mercedes-Benz",
+		  "Model": "S-Class",
+		  "Description": "A luxury flagship sedan that exemplifies comfort, cutting-edge technology, and safety features."
+		},
+		{
+		  "Name": "Jeep Wrangler",
+		  "Year": 2015,
+		  "Brand": "Jeep",
+		  "Model": "Wrangler",
+		  "Description": "An iconic off-road SUV known for its rugged capability, open-air design, and adventurous spirit."
+		},
+		{
+		  "Name": "Audi A4",
+		  "Year": 2016,
+		  "Brand": "Audi",
+		  "Model": "A4",
+		  "Description": "A premium compact sedan offering a balance of performance, comfort, and advanced technology."
 		}
-	]
+	  ]	  
 }
