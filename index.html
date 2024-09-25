@@ -5,37 +5,45 @@
         <link rel="stylesheet" href="table_style.css">
         <title>Pamela Quartson</title>
     </header>
-    <body>  
-        <!---Navigation--->
-        <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <body>
+        <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <!--This code defines the "My Webpage" link in the top left corner of the navigation pane-->
-                <a class="navbar-brand" href="./index.html">Home</a>
-                <!--This code defines the "List" link in the top right corner of the navigation pane-->
+                <a class="navbar-brand text-dark" href="./index.html">Home</a>
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./list.html">List</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-dark" href="./list.html">List</a>
+                    </li>
                 </ul>
             </div>
         </nav>
+        
         <!--This section defines the middle section of the webpage-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                
-                <!-- This code is for the student name-->
+        <header class="text-dark text-center">
+            <div class="">
+                <img src="gradient.gif" alt="gradient gif" width="100%" style="object-fit: contain;">
+                <div class="d-flex align-items-center flex-column"
+                    style="position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
                 <h1 class="masthead-heading text-uppercase mb-0">Pamela Quartson</h1>
-                <!--This code creates the two lines separating the student name from the subtitle-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!--This code creates the subheading underneath the line dividers-->
-                <p class="masthead-subheading font-weight-light mb-0">School of Information Student</p>
+                    <div class="divider-custom divider-dark">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <h5 class="masthead-subheading font-weight-light mb-0">MIMS '26</h5>
+                    </div>
             </div>
         </header>
-        <section class="text-center">
-
-            <div class="col-md-6 col-lg-4 mb-5">
+        <section class="d-flex justify-content-center p-5">
+            <div class="col-md-6">
+                <h3 class="text-center">My Biography</h3>
+                <p class="text-xl">
+                    I am Pamela Quartson, a Master of Information Management and Systems student with a specialization in Data
+                    Science and
+                    Technology and Ethics. I like leveraging data to drive impactful solutions, and I focus on the ethical
+                    implications of emerging technologies in society.
+                </p>
+                <p>
+                    Outside school, I like to play badminton and talk about cars.
+                    <a href="./list.html">Here are my top 10 cars of all time.</a>
+                </p>
                 <!-- put your bio paragraph here; remember to use the correct html tags -->
             </div>
         </section>
